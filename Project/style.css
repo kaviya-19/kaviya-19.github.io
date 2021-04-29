@@ -1,0 +1,112 @@
+
+   *{
+  box-sizing:border-box;
+}
+body{
+margin:0px;
+padding:0px;
+font:poppins;
+}
+
+#main{
+ width:100%;
+ height:10vh ;
+ position: relative;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+top:0;
+right:10;
+background-color: white;
+box-shadow: 5px 10px 30px,rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.logo img{
+  height:45px;
+}
+
+ul{
+  list-style:none;
+  display: flex;
+}
+
+.menu li a{
+ height: 40px;
+ line-height: 43px;
+ margin: 3px;
+ padding: 0px 22px;
+ display: flex;
+ font-size: 11px;
+ text-transform: uppercase;
+ font-weight: 500;
+ letter-spacing: 0.5px;
+ color: gray ; 
+ background-color: blanchedalmond
+}
+
+a{
+  text-decoration: none;
+ }
+
+ .hey{
+   color:#39bfad;
+   font-weight: 500;
+   font-size:0.9em;
+   border-bottom: 2px solid #39bfad;
+ }
+
+ .image{
+   width:500px;
+   height:500px;
+ }
+ 
+ .image img{
+   width:100%;
+   height:100%;
+   object-fit: contain;
+ }
+
+ .content{
+   display: flex;
+   width:90%;
+   justify-content: space-around;
+   align-items: center;
+   position: absolute;
+   left:0%;
+   right:50%;
+   transform: translate(-50% 0%);
+ }
+
+.name-text h1{
+color: #39bfad;
+}
+
+.name-text p{
+  color:#39bfad;
+  font-size: 15px;
+}
+ 
+ .resume-btn{
+   width:190px;
+   height:44px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+   background-color: rgb(92, 205, 158);
+   border-radius:  20px;
+   box-shadow: 5px 10px 30px rgba(rgb(0, 255, 191), rgb(128, 94, 0)), blue, alpha) ;
+   }
+
+   .resume-btn:hover{
+     color:white;
+     background-color : #2daf;
+     box-shadow: 5px 10px 30px rgba(rgb(0, 255, 191), rgb(128, 94, 0)), blue, alpha) ;
+     transition: all ease 0.2s;
+   }
+ 
